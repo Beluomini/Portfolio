@@ -1,0 +1,7 @@
+.home-main{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    background-image: linear-gradient(to botton, red , yellow);
+    background-color: blue;
+}
