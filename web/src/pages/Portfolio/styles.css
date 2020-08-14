@@ -1,0 +1,63 @@
+.portfolio-content{
+    width: 100vw;
+    height: 100vh;
+}
+
+.portfolio-content .portfolio-main{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #033649 , #011a23);
+}
+
+.portfolio-content .portfolio-main h1{
+    font: 900 5rem Lato;
+    color: black;
+    margin-top: 3rem;
+}
+
+.portfolio-content .portfolio-main .portfolio-grid{
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80vw;
+    justify-content: center;
+}
+
+.portfolio-content .portfolio-main .portfolio-grid .portfolio-block{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 2rem;
+    background-color: #666666;
+    border-radius: 10px;
+    height: 30rem;
+    width: 30rem;
+    overflow: hidden;
+}
+
+.portfolio-content .portfolio-main .portfolio-grid .portfolio-block img{
+    margin: 1rem 1rem;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.portfolio-content .portfolio-main .portfolio-grid .portfolio-block .portfolio-block-link{
+    height: 6rem;
+    width: 15rem;
+    border-radius: 10px;
+    background-color: orangered;
+    margin: 1rem 1rem;
+}
+
+.portfolio-content .portfolio-main .portfolio-grid .portfolio-block .portfolio-block-link a{
+    display: block;
+    text-align: center;
+    margin-top: 0.4rem;
+    text-decoration: none;
+    font: 700 3.5rem Lato;
+    color: black;
+}

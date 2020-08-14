@@ -1,7 +1,93 @@
-.home-main{
+.home-content{
+    width: 100vw;
+    height: 100vh;
+}
+
+.home-content .home-main{
     display: flex;
     flex-direction: column;
     justify-items: center;
-    background-image: linear-gradient(to botton, red , yellow);
-    background-color: blue;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #033649 , #011a23);
+    
+}
+
+.home-content .home-main h1{
+    font: 900 5rem Lato;
+    color: black;
+    margin-top: 3rem;
+}
+
+.home-content .home-main .home-block{
+    margin: 15px;
+    display: flex;
+    width: 80vw;
+    flex-direction: row;
+    align-items: center;
+    background-color: #00413f;
+    border-radius: 3rem;
+    overflow: hidden;
+}
+
+.home-content .home-main .home-block-2{
+    margin: 15px;
+    display: flex;
+    width: 80vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #666666;
+    border-radius: 3rem;
+    overflow: hidden;
+}
+
+.home-content .home-main .home-block .home-block-text,
+.home-content .home-main .home-block .home-block-image,
+.home-content .home-main .home-block-2 .home-block-text,
+.home-content .home-main .home-block-2 .home-block-image{
+    margin: 2rem 2rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-content .home-main .home-block .home-block-text p{
+    font: 700 2rem Lato;
+    color: #666666;
+}
+
+.home-content .home-main .home-block-2 .home-block-text p{
+    font: 700 2rem Lato;
+    color: black;
+}
+
+.home-content .home-main .home-block-2 .home-block-image img,
+.home-content .home-main .home-block .home-block-image img{
+    border-radius: 10px;
+}
+
+#edicao-gif{
+    height: 20rem;
+}
+
+#jogador-img{
+    width: 30rem;
+}
+
+@media(max-width: 750px){
+    .home-content .home-main .home-block-2,
+    .home-content .home-main .home-block{
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 3rem;
+    }
+    #edicao-gif{
+        width: 40vh;
+    }
+    
+    #jogador-img{
+        width: 60vw;
+    }
 }

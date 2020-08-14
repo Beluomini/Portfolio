@@ -10,4 +10,39 @@
 
 html, body, #root{
     height: 100vh;
+    overflow-x: hidden;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-track-piece {
+    margin-top: 60px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #036564;
+  }
+  
+  ::-webkit-scrollbar-thumb:vertical {
+    padding-top: 60px;
+    background-color: black;
+    -webkit-border-radius: 5px;
+  }
+
+  /*
+  pallete
+    #E8DDCB
+    #CDB380
+    #036564
+    #033649
+    #031634
+
+    #dcccb0
+    #b38c3f
+    #013131
+    #011a23
+    #010b19
+  */

@@ -1,0 +1,8 @@
+.curriculum-main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #033649 , #011a23);
+}
