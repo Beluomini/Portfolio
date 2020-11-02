@@ -10,6 +10,7 @@ import trashCashImg from '../../assets/GeoTrash.png';
 import proconsulteImg from '../../assets/logo_proconsulte.png';
 import SewerScapeImg from '../../assets/SewerScapeLogo.png';
 
+
 function Portfolio(){
     return (
         <div className="portfolio-content">

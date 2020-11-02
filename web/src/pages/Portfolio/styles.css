@@ -28,7 +28,7 @@
 .portfolio-content .portfolio-main .portfolio-grid .portfolio-block{
     display: flex;
     justify-self: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
     margin: 2rem 2rem;
@@ -41,7 +41,7 @@
 
 .portfolio-content .portfolio-main .portfolio-grid .portfolio-block img{
     margin: 1rem 1rem;
-    height: 200px;
+    max-width: 200px;
     border-radius: 10px;
 }
 
@@ -51,6 +51,7 @@
     border-radius: 10px;
     background-color: orangered;
     margin: 1rem 1rem;
+    justify-self: flex-end;
 }
 
 .portfolio-content .portfolio-main .portfolio-grid .portfolio-block .portfolio-block-link a{

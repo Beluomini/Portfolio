@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Instagram, Linkedin } from 'react-feather';
+import { Facebook, Instagram, Linkedin, GitHub } from 'react-feather';
 
 import './styles.css';
 
@@ -8,9 +8,15 @@ function Footer(){
         <header className="footer">
             <div className="footer-content">
                 <div className="footer-text">
-                    <h2>Antisocial Pages</h2>
+                    <h2>Social Pages</h2>
                 </div>
                 <div className="footer-social">
+
+                    <a rel="noopener noreferrer" target="_blank" 
+                        href="https://github.com/Beluomini"
+                    >
+                        <GitHub />
+                    </a>
 
                     <a rel="noopener noreferrer" target="_blank" 
                         href="https://www.facebook.com/lucas.beluomini"
