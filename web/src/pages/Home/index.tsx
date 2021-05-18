@@ -22,7 +22,7 @@ function Home(){
                     </div>
                     <div className="home-block-text">
                         <p> 
-                            It all started in 2005 when I got to know the game King}
+                            It all started in 2005 when I got to know the game King
                             Pin Bowling, it was one of the few video games of the
                             time and ran on the home computer, a windows xp.{<br/>}{<br/>}
                             I FELL GOOD!!!
