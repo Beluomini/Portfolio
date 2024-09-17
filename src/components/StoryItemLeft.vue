@@ -10,7 +10,6 @@
       <p>
         <slot name="content"></slot>
       </p>
-      <slot></slot>
     </div>
   </div>
 </template>
@@ -19,6 +18,7 @@
 .item {
   display: flex;
   width: 100%;
+  justify-content: flex-start;
   align-items: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -37,6 +37,7 @@
 .details {
   flex: 1;
   margin-left: 1rem;
+  text-align: justify;
 }
 
 h3 {

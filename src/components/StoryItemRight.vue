@@ -7,7 +7,6 @@
       <p>
         <slot name="content"></slot>
       </p>
-      <slot></slot>
     </div>
     <div class="image">
       <slot name="image"></slot>
@@ -29,7 +28,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 18rem;
+  max-width: 20rem;
   flex-grow: 1;
   border-radius: 20%;
   margin-left: 5rem;
@@ -37,7 +36,7 @@
 
 .details {
   flex: 1;
-  margin-left: 1rem;
+  margin-right: 1rem;
   text-align: justify;
 }
 
