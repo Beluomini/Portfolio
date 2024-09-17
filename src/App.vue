@@ -34,7 +34,8 @@ nav {
 }
 
 nav a.router-link-exact-active {
-  color: var(--color-text);
+  color: var(--color-heading);
+  border-bottom: 2px solid var(--color-heading);
 }
 
 nav a.router-link-exact-active:hover {
@@ -42,13 +43,9 @@ nav a.router-link-exact-active:hover {
 }
 
 nav a {
+  padding: 0.5rem;
   display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
+  color: var(--color-text);
 }
 
 @media (min-width: 1024px) {
@@ -56,7 +53,9 @@ nav a:first-of-type {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
+    padding: 1rem 0;
+    background-color: var(--vt-c-green-dark-2);
   }
 
   header .wrapper {
@@ -68,7 +67,7 @@ nav a:first-of-type {
   nav {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 80rem;
     text-align: left;
     font-size: 1rem;
   }

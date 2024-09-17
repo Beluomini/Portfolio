@@ -1,11 +1,18 @@
+<script setup lang="ts">
+import TheWelcome from '../components/StoryCards.vue'
+</script>
+
 <template>
-    <div class="story">
-        <header>
-            <h1>Story</h1>
-        </header>
-        <div class="wrapper">
-            <h1>Lucas Beluomini</h1>
-            <p>Aqui eu vou contar minha história</p>
-        </div>
-    </div>
+  <main>
+    <TheWelcome />
+  </main>
 </template>
+
+<style>
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+</style>

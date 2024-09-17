@@ -8,6 +8,14 @@
   --vt-c-black-soft: #222222;
   --vt-c-black-mute: #282828;
 
+  --vt-c-green-dark-3:#081C15;
+  --vt-c-green-dark-2:#0d2818;
+  --vt-c-green-dark-1:#2D6A4F;
+  --vt-c-green:#52B788;
+  --vt-c-green-light-1:#95D5B2;
+  --vt-c-green-light-2:#B7E4C7;
+  --vt-c-green-light-3:#D8F3DC;
+
   --vt-c-indigo: #2c3e50;
 
   --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
@@ -38,7 +46,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-background: var(--vt-c-black);
+    --color-background: var(--vt-c-green-dark-3);
     --color-background-soft: var(--vt-c-black-soft);
     --color-background-mute: var(--vt-c-black-mute);
 
@@ -59,7 +67,9 @@
 }
 
 body {
+  display: flex;
   min-height: 100vh;
+  justify-content: center;
   color: var(--color-text);
   background: var(--color-background);
   transition:
