@@ -1,14 +1,22 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
+import MainInfo from './components/MainInfo.vue'
 </script>
 
 <template>
   <header>
     <div class="wrapper">
+      <MainInfo />
       <nav>
-        <RouterLink to="/">Sobre</RouterLink>
-        <RouterLink to="/story">História</RouterLink>
-        <RouterLink to="/projects">Projetos</RouterLink>
+        <div class="nav-link">
+          <RouterLink to="/">Sobre mim</RouterLink>
+        </div>
+        <div class="nav-link">
+          <RouterLink to="/story">Minha história</RouterLink>
+        </div>
+        <div class="nav-link">
+          <RouterLink to="/projects">Meus projetos</RouterLink>
+        </div>
       </nav>
     </div>
   </header>
@@ -67,9 +75,22 @@ nav a {
   nav {
     display: flex;
     justify-content: space-around;
-    width: 80rem;
+    width: 80%;
     text-align: left;
     font-size: 1rem;
+  }
+
+  .nav-link {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav a {
+    padding: 0.5rem;
+    display: inline-block;
+    color: var(--color-text);
   }
 }
 </style>
