@@ -13,7 +13,9 @@ import RightItem from './StoryItemRight.vue'
       <p>
         Desde muito pequeno já apresentava indicios que teria afinidade com programação e apresentava facilidade com tecnologia. 
       </p>
-      <p>Gostava de jogar alguns jogos simples como</p>
+      <p>
+        O ano era 2004 e eu gostava de jogar alguns jogos virtuais offline em um PC "branco" com mouse de bolinha um processador duvidoso e rodando um windows de janelas cinzas.
+      </p>
     </template>
   </LeftItem>
 
@@ -24,7 +26,7 @@ import RightItem from './StoryItemRight.vue'
     <template #title>Lógica e Raciocínio</template>
     <template #content>
       <p>
-        Sempre fui uma criança muito curiosa e gostava de entender como as coisas funcionavam. Gostava de fazer testes de Lógica e Raciocínio, testando minha capacidade de resolver problemas.
+        Os jogos eram simples mas me divertiam muito na época, mesmo que com gráficos 
       </p>
       <p>
         Aos 12 anos, comecei a estudar programação e desenvolvimento de jogos, e foi ai que descobri minha paixão por tecnologia.
