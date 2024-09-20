@@ -1,8 +1,5 @@
 <template>
   <div class="item">
-    <div class="image">
-      <slot name="image"></slot>
-    </div>
     <div class="details">
       <h3>
         <slot name="title"></slot>
@@ -11,6 +8,9 @@
         <slot name="content"></slot>
       </p>
     </div>
+    <div class="image">
+      <slot name="image"></slot>
+    </div>
   </div>
 </template>
 
@@ -18,7 +18,7 @@
 .item {
   display: flex;
   width: 100%;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -26,17 +26,17 @@
 
 .image {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   max-width: 20rem;
   flex-grow: 1;
   border-radius: 20%;
-  margin-right: 5rem;
+  margin-left: 5rem;
 }
 
 .details {
   flex: 1;
-  margin-left: 1rem;
+  margin-right: 1rem;
   text-align: justify;
 }
 

@@ -1,8 +1,7 @@
 <template>
   <div class="story">
-      <h1>Story</h1>
-      <h1>Lucas Beluomini</h1>
-      <p>Aqui eu vou contar minha história</p>
+    <h1>Lucas Beluomini</h1>
+    <p>Aqui eu vou colocar minhas habilidades, stacks e curiosidades sobre mim</p>
   </div>
 </template>
 
