@@ -63,7 +63,11 @@ nav a {
     width: 100%;
     margin-bottom: 3rem;
     padding: 1rem 0;
-    background-color: var(--vt-c-green-dark-2);
+    background-color: linear-gradient(
+      90deg,
+      var(--vt-c-green-dark-2) 50%,
+      var(--vt-c-green-dark-3) 50%
+    );
   }
 
   header .wrapper {

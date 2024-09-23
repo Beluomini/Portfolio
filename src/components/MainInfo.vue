@@ -4,10 +4,7 @@
       <h2>Lucas Beluomini</h2>
     </div>
     <div class="main-info-image">
-      <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCTMhnLo43ZCkuSoHwfvO8sj3nLMJLU9_EA&s"
-        alt="Lucas Beluomini"
-      />
+      <img src="../assets/images/me.jpeg" alt="Lucas Beluomini" />
     </div>
     <div class="main-info-role">
       <h2>Desenvolvedor</h2>
@@ -38,13 +35,19 @@
 
 .main-info-image {
   display: flex;
-  flex: 1;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  width: 11rem;
+  height: 11rem;
   border-radius: 50%;
 }
 
 .main-info-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
   border-radius: 50%;
 }
 
