@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import MainInfo from './components/MainInfo.vue'
+import MainInfo from './components/header/MainInfo.vue'
+import ContactInfo from './components/footer/ContactInfo.vue'
 </script>
 
 <template>
@@ -20,7 +21,12 @@ import MainInfo from './components/MainInfo.vue'
       </nav>
     </div>
   </header>
-  <RouterView />
+  <div class="content">
+    <RouterView />
+  </div>
+  <footer>
+    <ContactInfo />
+  </footer>
 </template>
 
 <style scoped>
@@ -85,6 +91,22 @@ nav a {
     padding: 0.5rem;
     display: inline-block;
     color: var(--color-text);
+  }
+
+  .content {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    background-color: rgb(27, 27, 27);
   }
 }
 </style>
