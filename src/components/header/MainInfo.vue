@@ -4,7 +4,7 @@
       <h2>Lucas Beluomini</h2>
     </div>
     <div class="main-info-image">
-      <img src="../assets/images/me.jpeg" alt="Lucas Beluomini" />
+      <img src="../../assets/images/me.jpeg" alt="Lucas Beluomini" />
     </div>
     <div class="main-info-role">
       <span class="main-info-role-text">Desenvolvedor</span>
@@ -25,7 +25,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   color: var(--color-heading);
 }
 
@@ -102,7 +102,7 @@
 @media (prefers-color-scheme: dark) {
   .main-info {
     padding: 2rem 4rem;
-    background-image: url('../assets/images/dark-background.gif');
+    background-image: url('../../assets/images/dark-background.gif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -112,7 +112,7 @@
 @media (prefers-color-scheme: light) {
   .main-info {
     padding: 2rem 4rem;
-    background-image: url('../assets/images/light-background.gif');
+    background-image: url('../../assets/images/light-background.gif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
