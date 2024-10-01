@@ -2,14 +2,6 @@
   <div class="contact-info">
     <div class="contact-info__item">
       <p>
-        <a href="mailto:lucasbeluomini1@gmail.com" target="_blank">
-          <font-awesome-icon icon="envelope" />
-          Email
-        </a>
-      </p>
-    </div>
-    <div class="contact-info__item">
-      <p>
         <a href="https://www.linkedin.com/in/lucas-beluomini/" target="_blank">
           <font-awesome-icon :icon="['fab', 'linkedin']" />
           LinkedIn
