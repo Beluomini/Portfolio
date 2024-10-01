@@ -7,9 +7,7 @@
       <h3>
         <slot name="title"></slot>
       </h3>
-      <p>
-        <slot name="content"></slot>
-      </p>
+      <slot name="content"></slot>
     </div>
   </div>
 </template>
@@ -34,10 +32,8 @@
   overflow: hidden;
 }
 
-.details {
-  flex: 1;
+.left-story-details {
   margin-left: 1rem;
-  text-align: justify;
 }
 
 h3 {

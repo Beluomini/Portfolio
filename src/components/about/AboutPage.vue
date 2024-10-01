@@ -11,6 +11,28 @@ import FanFactItem from './FanFactItem.vue'
       </p>
     </div>
 
+    <div class="my-skills">
+      <h2>Minhas habilidades</h2>
+      <p>
+        Aqui estão algumas das habilidades que adquiri ao longo da minha carreira como desenvolvedor
+        web.
+      </p>
+      <div class="skills-list">
+        <span>JavaScript</span>
+        <span>Node.js</span>
+        <span>Express</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Vue.js</span>
+        <span>React</span>
+        <span>SQL</span>
+        <span>MongoDB</span>
+        <span>Git</span>
+        <span>GitHub</span>
+        <span>Scrum</span>
+      </div>
+    </div>
+
     <div class="fan-facts">
       <h2>Curiosidades sobre mim</h2>
       <FanFactItem>
@@ -39,28 +61,6 @@ import FanFactItem from './FanFactItem.vue'
           lagos, represas, o importante é o contato com a natureza.
         </template>
       </FanFactItem>
-    </div>
-
-    <div class="my-skills">
-      <h2>Minhas habilidades</h2>
-      <p>
-        Aqui estão algumas das habilidades que adquiri ao longo da minha carreira como desenvolvedor
-        web.
-      </p>
-      <div class="skills-list">
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>JavaScript</span>
-        <span>Vue.js</span>
-        <span>React</span>
-        <span>Node.js</span>
-        <span>Express</span>
-        <span>SQL</span>
-        <span>MongoDB</span>
-        <span>Git</span>
-        <span>GitHub</span>
-        <span>Scrum</span>
-      </div>
     </div>
   </div>
 </template>

@@ -34,7 +34,7 @@
   overflow: hidden;
 }
 
-.details {
+.right-story-details {
   flex: 1;
   margin-right: 1rem;
   text-align: justify;
