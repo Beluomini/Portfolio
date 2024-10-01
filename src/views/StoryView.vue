@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import TheWelcome from '../components/story/StoryCards.vue'
+import StoryCards from '../components/story/StoryCards.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <StoryCards />
   </main>
 </template>
 

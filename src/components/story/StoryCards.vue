@@ -6,10 +6,7 @@ import RightItem from './StoryItemRight.vue'
 <template>
   <LeftItem>
     <template #image>
-      <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCTMhnLo43ZCkuSoHwfvO8sj3nLMJLU9_EA&s"
-        alt="Lucas Beluomini"
-      />
+      <img src="../../assets/images/first-steps.jpg" alt="Primeiros Indicios" />
     </template>
     <template #title>Primeiros Indicios</template>
     <template #content>
@@ -18,34 +15,63 @@ import RightItem from './StoryItemRight.vue'
         apresentava facilidade com tecnologia.
       </p>
       <p>
-        O ano era 2004 e eu gostava de jogar alguns jogos virtuais offline em um PC "branco" com mouse de bolinha um processador duvidoso e rodando um windows de janelas cinzas.
+        O ano era 2004 e eu gostava de jogar alguns jogos virtuais offline em um PC "branco" com
+        mouse de bolinha um processador duvidoso e rodando um windows de janelas cinzas.
+      </p>
+      <p>
+        Os jogos eram simples mas me divertiam muito na época, mesmo que com gráficos não tão bons
+        (para os dias de hoje).
+      </p>
+      <p>
+        Vou deixar abaixo uma lista de imagens de jogos que me marcaram na infância e que eu ficava
+        horas jogando mesmo antes dos 8 anos.
       </p>
     </template>
   </LeftItem>
 
   <RightItem>
     <template #image>
-      <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCTMhnLo43ZCkuSoHwfvO8sj3nLMJLU9_EA&s"
-        alt="Lucas Beluomini"
-      />
+      <img src="../../assets/images/crazy.jpg" alt="Lucas Beluomini" />
     </template>
     <template #title>Lógica e Raciocínio</template>
     <template #content>
       <p>
-        Os jogos eram simples mas me divertiam muito na época, mesmo que com gráficos 
+        Desde muito pequeno apresentei gosto por desafios de lógica e de matemática, gostava de
+        entender coisas que me surpreendiam e me faziam pensar.
       </p>
       <p>
-        Aos 12 anos, comecei a estudar programação e desenvolvimento de jogos, e foi ai que descobri
-        minha paixão por tecnologia.
+        Meus pais sempre compravam revistas de passatempos e eu adorava resolver. Eu era muito novo
+        pra saber, mas, talvez, esses pequenos atos tenham me influenciado a seguir a carreira de
+        programador.
       </p>
     </template>
   </RightItem>
+
+  <LeftItem>
+    <template #image>
+      <img src="../../assets/images/skate.jpg" alt="Primeiros Indicios" />
+    </template>
+    <template #title>Outras paixões</template>
+    <template #content>
+      <p>
+        Apesar de ter esse lado curioso nunca gostei de estudar conteúdos que não me interessavam,
+        portanto me apoiei em outras paixões, uma delas foi o esporte.
+      </p>
+      <p>
+        Gostava de praticar absolutamente tudo, começou com o futsal e futebol, como todo bom
+        brasileiro, mas logo me apaixonei pelo skate e em seguida pelo handebol.
+      </p>
+      <p>
+        Gostava de praticar absolutamente tudo, começou com o futsal e futebol, como todo bom
+        brasileiro, mas logo me apaixonei pelo skate e em seguida pelo handebol.
+      </p>
+    </template>
+  </LeftItem>
 </template>
 
 <style>
 img {
-  object-fit: cover;
-  border-radius: 20%;
+  width: 100%;
+  height: 100%;
 }
 </style>
