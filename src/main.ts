@@ -5,10 +5,12 @@ import App from './App.vue'
 import router from './router'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faMedal, faDice, faFish } from '@fortawesome/free-solid-svg-icons'
+import { faMedal, faDice, faFish, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faMedal, faDice, faFish)
+// @ts-ignore
+library.add(faMedal, faDice, faFish, faEnvelope, faLinkedin, faGithub)
 
 const app = createApp(App)
 

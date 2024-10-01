@@ -3,24 +3,24 @@
     <div class="contact-info__item">
       <p>
         <a href="mailto:lucasbeluomini1@gmail.com" target="_blank">
+          <font-awesome-icon icon="envelope" />
           Email
-          <i class="fas fa-envelope"></i>
         </a>
       </p>
     </div>
     <div class="contact-info__item">
       <p>
         <a href="https://www.linkedin.com/in/lucas-beluomini/" target="_blank">
+          <font-awesome-icon :icon="['fab', 'linkedin']" />
           LinkedIn
-          <i class="fab fa-linkedin"></i>
         </a>
       </p>
     </div>
     <div class="contact-info__item">
       <p>
         <a href="https://github.com/Beluomini" target="_blank">
+          <font-awesome-icon :icon="['fab', 'github']" />
           GitHub
-          <i class="fab fa-github"></i>
         </a>
       </p>
     </div>
@@ -31,7 +31,6 @@
 .contact-info {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 1rem;
 }
 
@@ -39,6 +38,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 
 .contact-info__item a {
