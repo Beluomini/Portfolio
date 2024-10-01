@@ -26,12 +26,12 @@
 
 .image {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  max-width: 20rem;
-  flex-grow: 1;
+  max-width: 25rem;
   border-radius: 20%;
   margin-right: 5rem;
+  overflow: hidden;
 }
 
 .details {
