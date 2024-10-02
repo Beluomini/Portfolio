@@ -114,8 +114,30 @@ import ProjectItem from './ProjectItem.vue'
   .projects-grid img {
     width: 100%;
     height: 100%;
-    max-height: 10rem;
     border-radius: 8%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 1023px) {
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    padding: 1rem 0rem;
+  }
+
+  .projects-grid a {
+    text-decoration: none;
+    color: var(--color-text);
+    border-radius: 8%;
+  }
+
+  .projects-grid img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8%;
+    object-fit: cover;
   }
 }
 </style>
