@@ -18,8 +18,9 @@
   width: 100%;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 2rem;
   margin-bottom: 2rem;
+  margin-top: 0;
+  padding: 0.4rem 2rem;
 }
 
 .image {
@@ -43,10 +44,39 @@ h3 {
   color: var(--color-heading);
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 768px) {
   .item {
-    margin-top: 0;
-    padding: 0.4rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .image {
+    display: flex;
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .left-story-details {
+    margin-left: 0;
+  }
+
+  .details {
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+
+  .details h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+    color: var(--color-heading);
   }
 }
 </style>
