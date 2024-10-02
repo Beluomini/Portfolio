@@ -32,6 +32,7 @@ import ContactInfo from './components/footer/ContactInfo.vue'
 <style scoped>
 header {
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: center;
 }
@@ -42,8 +43,18 @@ header .wrapper {
   align-items: center;
 }
 
+.nav-link {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
 nav {
-  font-size: 12px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.8rem;
+  width: 90%;
   text-align: center;
 }
 
@@ -62,9 +73,24 @@ nav a {
   color: var(--color-text);
 }
 
+.content {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  background-color: rgb(27, 27, 27);
+}
+
 @media (min-width: 1024px) {
   header {
-    width: 100%;
     margin-bottom: 3rem;
   }
 
@@ -73,40 +99,8 @@ nav a {
   }
 
   nav {
-    display: flex;
-    justify-content: space-around;
     width: 80%;
-    text-align: left;
     font-size: 1rem;
-  }
-
-  .nav-link {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-  }
-
-  nav a {
-    padding: 0.5rem;
-    display: inline-block;
-    color: var(--color-text);
-  }
-
-  .content {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-  }
-
-  footer {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    width: 100%;
-    background-color: rgb(27, 27, 27);
   }
 }
 </style>
