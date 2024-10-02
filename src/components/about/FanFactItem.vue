@@ -51,4 +51,19 @@ export default {
   font-size: 1rem;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .fan-fact-item {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .fan-fact-image {
+    margin-bottom: 0.5rem;
+  }
+
+  .fan-fact-details {
+    margin-left: 0;
+  }
+}
 </style>

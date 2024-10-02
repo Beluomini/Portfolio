@@ -73,7 +73,6 @@ import FanFactItem from './FanFactItem.vue'
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  border-radius: 8%;
 }
 
 .quote {
@@ -90,20 +89,6 @@ import FanFactItem from './FanFactItem.vue'
   font-size: 1.5em;
   line-height: 1.4;
   font-style: italic;
-  margin: 0;
-}
-
-.fan-facts {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  margin-top: 2rem;
-}
-
-.fan-facts h2 {
-  font-size: 2em;
   margin: 0;
 }
 
@@ -139,5 +124,52 @@ import FanFactItem from './FanFactItem.vue'
   border-radius: 8%;
   background-color: #2a2a2a;
   color: #fff;
+}
+
+.fan-facts {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.fan-facts h2 {
+  font-size: 2em;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .story {
+    padding: 1.5rem 0;
+  }
+
+  .quote {
+    padding: 1rem;
+  }
+
+  .quote p {
+    font-size: 1rem;
+  }
+
+  .my-skills {
+    margin-top: 1.5rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .my-skills h2 {
+    font-size: 1.5em;
+  }
+
+  .fan-facts {
+    margin-top: 1.5rem;
+    align-items: center;
+  }
+
+  .fan-facts h2 {
+    font-size: 1.5em;
+  }
 }
 </style>
