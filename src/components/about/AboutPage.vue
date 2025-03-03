@@ -7,20 +7,36 @@ import FanFactItem from './FanFactItem.vue'
   <div class="story">
     <div class="quote">
       <p>
-        "Aoba! Bão? Seja bem vindo ao meu site! Aqui você saberá um pouco a mais de mim, minha
-        história, minha carreira e alguns projetos que fiz sozinho ou com amigos, espero que goste."
+        "Olá! Seja bem vindo ao meu espaço! Aqui você saberá um pouco a mais de mim, minha
+        história, minha carreira e alguns projetos que participei, espero que goste."
       </p>
     </div>
 
     <div class="my-skills">
-      <h2>Minhas habilidades</h2>
+      <h2>Linguagens favoritas</h2>
       <p>
-        Aqui estão algumas das habilidades que adquiri ao longo da minha carreira como desenvolvedor
-        web.
+        Aqui estão as principais linguagens de programação que aprendi e aprimorei na minha jornada
+        como desenvolvedor web.
       </p>
       <div class="skills-list">
         <span>JavaScript</span>
+        <span>TypeScript*</span>
+        <span>Python</span>
+        <span>PHP</span>
+        <span>Java</span>
+      </div>
+    </div>
+
+
+    <div class="my-skills">
+      <h2>Habilidades</h2>
+      <p>
+        Como nem só de código vive um desenvolvedor listei também algumas tecnologias e ferramentas 
+        que também tive contato e aprimorei nesse tempo.
+      </p>
+      <div class="skills-list">
         <span>Node.js</span>
+        <span>Nest.js</span>
         <span>Express</span>
         <span>HTML</span>
         <span>CSS</span>
@@ -30,7 +46,8 @@ import FanFactItem from './FanFactItem.vue'
         <span>MongoDB</span>
         <span>Git</span>
         <span>GitHub</span>
-        <span>Scrum</span>
+        <span>GCP</span>
+        <span>Airflow</span>
       </div>
     </div>
 
@@ -60,6 +77,15 @@ import FanFactItem from './FanFactItem.vue'
         <template #fan-fact-description>
           Hoje o meu hobby favorito é pescar, isso mesmo, um dev que pesca... pode ser em rios,
           lagos, represas, o importante é o contato com a natureza.
+        </template>
+      </FanFactItem>
+      <FanFactItem>
+        <template #fan-fact-icon>
+          <font-awesome-icon :icon="['fas', 'laptop']" class="fan-fact-icon" />
+        </template>
+        <template #fan-fact-description>
+          Sempre gostei de jogos virtuais, sejam competitivos como BO2, LOL ou jogos como 
+          Minecraft, GTA, entre outros que, com amigos, fazem as horas voarem.
         </template>
       </FanFactItem>
     </div>
