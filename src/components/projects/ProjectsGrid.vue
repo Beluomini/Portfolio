@@ -100,7 +100,7 @@ import ProjectItem from './ProjectItem.vue'
 @media (min-width: 1024px) {
   .projects-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
     padding: 0.4rem 2rem;
   }

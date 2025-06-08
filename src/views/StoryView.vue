@@ -12,7 +12,7 @@ import StoryCards from '../components/story/StoryCards.vue'
 main {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 60%;
   align-items: flex-start;
   justify-content: center;
 }

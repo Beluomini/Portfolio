@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import AboutPage from '@/components/about/AboutPage.vue';
+import AboutPage from '@/components/about/AboutPage.vue'
 </script>
 
 <template>
@@ -12,7 +12,7 @@ import AboutPage from '@/components/about/AboutPage.vue';
 main {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 60%;
   align-items: flex-start;
   justify-content: center;
 }

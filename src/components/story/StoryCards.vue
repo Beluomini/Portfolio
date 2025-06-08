@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import StoryCarousel from './StoryCarousel.vue'
 import LeftItem from './StoryItemLeft.vue'
 import RightItem from './StoryItemRight.vue'
 </script>
@@ -28,6 +29,8 @@ import RightItem from './StoryItemRight.vue'
       </p>
     </template>
   </LeftItem>
+
+  <StoryCarousel />
 
   <RightItem>
     <template #image>
